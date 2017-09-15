@@ -3,6 +3,7 @@
 *.png
 *.aac
 *.exe
+*.txt
 superceded/
 
 # Vim files
