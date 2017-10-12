@@ -7,7 +7,7 @@ REM
 REM FFmpeg image with transparency to video
 REM 
 REM create a one-frame MP4 video using a PNG image (with transparency, created in GIMP) as input
-::ffmpeg -y -loop 1 -i pipetransparent.png -r 1 -vframes 1 -c:v png -pix_fmt rgba z22.mp4
+ffmpeg -y -loop 1 -i pipetransparent.png -r 1 -vframes 1 -c:v png -pix_fmt rgba z22.mp4
 
 
 REM
