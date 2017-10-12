@@ -6,7 +6,11 @@ z33.mp4: a one frame 1920x1080 video created by FFmpeg with a black background a
 z44.mp4: chroma-keying z33.mp4 to make only the black transparent. This works as the PiP when adjusting transparency.
  
 Notes:
+
 1)     Although a video can have transparency, normal players (VLC, Quicktime, etc) will not show this transparency (as there is “nothing else” under the transparency to see).
+
 2)     H264 video doesn’t support transparency, although MP4 containers do.
+
 3)     Medialooks’ Mixing PiP appears to only allow videos as input, hence why 1 frame videos are created above (these videos are played on loop).
+
 4)     Adjusting the size of the PiP to completely overlay the main video is trivial in the “Sample Live Mixing.exe” app (change the PiP size and start location).
